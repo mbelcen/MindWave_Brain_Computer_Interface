@@ -24,14 +24,7 @@ def get_data(q):
         if (dataPoint.__class__ is RawDataPoint):
 			data.append(dataPoint)
 			q.put(data)
-	
-
-  
-  
-  	
-	
-		
-		
+			
 	
 def get_ratio(q):
 	
